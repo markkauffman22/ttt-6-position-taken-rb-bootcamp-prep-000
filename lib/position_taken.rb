@@ -18,7 +18,7 @@ def position_taken(board, i)
   end  
 end
 
-  board = []
+  board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
   index = 0
   position_taken(board, index)
 
