@@ -5,7 +5,7 @@ def position_taken(board, i)
   if board.length == 0 
     puts ZERO LENGTH
     return false
-  end
+  e
   puts i
   puts board[i]
   if (board[i] == "X") || (board[i] == "O")
