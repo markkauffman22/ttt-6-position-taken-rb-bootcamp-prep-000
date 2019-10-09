@@ -1,7 +1,5 @@
 # code your #position_taken? method here!
 
-
-  
 def position_taken?(board, i)
   if board.length != 0 
     puts board[i]
@@ -18,17 +16,3 @@ def position_taken?(board, i)
   end  
 end
 
-
-=begin
-
-  board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
-  index = 0
-  position_taken(board, index)
-----------------------
-i = 0
-while i < 9
-  puts i
-  position_taken(i)
-  i+=1
-end
-=end
