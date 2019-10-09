@@ -5,7 +5,7 @@
 board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
 def position_taken(i)
-  board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
+
   puts i
   puts board[i]
   if (board[i] == "X") || (board[i] == "O")
