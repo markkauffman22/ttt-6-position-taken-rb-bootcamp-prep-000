@@ -18,12 +18,13 @@ def position_taken(board, i)
   end  
 end
 
+
   board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
   index = 0
   position_taken(board, index)
 
 
-=begin
+
 i = 0
 while i < 9
   puts i
