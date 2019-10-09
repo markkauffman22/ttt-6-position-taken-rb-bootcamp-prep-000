@@ -2,7 +2,7 @@
 
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   index = 0
-  position_taken?(board, index)
+  position_taken(board, index)
   
 def position_taken(board, i)
   if board.length != 0 
