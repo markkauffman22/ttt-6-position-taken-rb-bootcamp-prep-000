@@ -1,8 +1,6 @@
 # code your #position_taken? method here!
 
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  index = 0
-  position_taken(board, index)
+
   
 def position_taken(board, i)
   if board.length != 0 
@@ -19,6 +17,11 @@ def position_taken(board, i)
     return false
   end  
 end
+
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  index = 0
+  position_taken(board, index)
+
 
 =begin
 i = 0
