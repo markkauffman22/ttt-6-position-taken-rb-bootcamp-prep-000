@@ -2,13 +2,12 @@
 
 
 def position_taken(board, i)
+  if b
+  
   if board.length == 0 
     puts ZERO LENGTH
     return false
-  e
-  puts i
-  puts board[i]
-  if (board[i] == "X") || (board[i] == "O")
+  elsif (board[i] == "X") || (board[i] == "O")
     puts "true"
     return true
   else
