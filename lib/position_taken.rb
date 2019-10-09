@@ -3,7 +3,9 @@
 
 
 def position_taken(i)
-
+#board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
+#board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
   puts i
   puts board[i]
   if (board[i] == "X") || (board[i] == "O")
