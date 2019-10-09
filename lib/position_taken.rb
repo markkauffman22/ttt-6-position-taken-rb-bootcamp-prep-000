@@ -2,8 +2,9 @@
 
 
 def position_taken(board, i)
-  if 
-  
+  if board.length != 0 
+    puts board[i]
+  end
   if board.length == 0 
     puts ZERO LENGTH
     return false
