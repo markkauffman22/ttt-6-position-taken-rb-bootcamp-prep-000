@@ -1,9 +1,11 @@
 # code your #position_taken? method here!
 
-board = []
-index = 0
 
 def position_taken(board, i)
+  if board.length == 0 
+    puts ZERO LENGTH
+    return false
+  end
   puts i
   puts board[i]
   if (board[i] == "X") || (board[i] == "O")
