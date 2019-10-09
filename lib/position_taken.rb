@@ -2,7 +2,7 @@
 
 
 def position_taken(board, i)
-  if b
+  if 
   
   if board.length == 0 
     puts ZERO LENGTH
